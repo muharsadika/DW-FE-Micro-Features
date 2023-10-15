@@ -5,6 +5,7 @@ import App from './App';
 import MemeGenerator from './Pages/MemeGenerator';
 import CurrencyConverter from './Pages/CurrencyConverter';
 import TicTacToe from './Pages/TTT';
+import WordScramble from './Pages/WordScramb';
 // import MemeGeneratorButton from './MemeGenerator/MemeGeneretorButton';
 import './index.css';
 
@@ -15,6 +16,7 @@ ReactDOM.render(
         <Route path="/meme-generator" element={<MemeGenerator />} />
         <Route path="/currency-converter" element={<CurrencyConverter />} /> {/* Tambahkan rute ke CurrencyConverter */}
         <Route path="/ttt" element={<TicTacToe />} /> {/* Tambahkan rute ke CurrencyConverter */}
+        <Route path="/ws" element={<WordScramble />} />
         <Route path="/" element={<App />} />
       </Routes>
     </React.StrictMode>

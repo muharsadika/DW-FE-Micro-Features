@@ -18,6 +18,9 @@ function App() {
           <Link to="/ttt">
             <button>Tic Tac Toe</button>
           </Link>
+          <Link to="/ws">
+            <button>Word Scramb</button>
+          </Link>
         </div>
       </div>
     </>
